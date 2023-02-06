@@ -18161,5 +18161,3 @@ end)
  })
 
  local Section = Tab:CreateSection("The End")
-
- Rayfield:LoadConfiguration()
