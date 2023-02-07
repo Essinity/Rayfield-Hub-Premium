@@ -726,6 +726,13 @@ MainFrameBeautyB.Visible = false
 	end,
  })
 
+ local Button = Tab:CreateButton({
+	Name = "NooVster",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/NooVster/v1.1/main/Source'))()
+	end,
+ })
+
  local Section = Tab:CreateSection("Michael's Zombies")
 
  local Button = Tab:CreateButton({
