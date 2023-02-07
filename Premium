@@ -703,6 +703,29 @@ MainFrameBeautyB.Visible = false
 
  local Tab = Window:CreateTab("Games", 4483362458) -- Title, Image
 
+ local Section = Tab:CreateSection("Build A Boat For Treasure")
+
+ local Button = Tab:CreateButton({
+	Name = "Vynixius",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua"))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "BABFT Gui",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "56 Clubs",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/WinterDinder/silver-couscous/main/masage.lua"))()
+	end,
+ })
+
  local Section = Tab:CreateSection("Michael's Zombies")
 
  local Button = Tab:CreateButton({
@@ -18161,3 +18184,5 @@ end)
  })
 
  local Section = Tab:CreateSection("The End")
+
+ Rayfield:LoadConfiguration()
