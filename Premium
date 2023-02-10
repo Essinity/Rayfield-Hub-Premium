@@ -784,6 +784,13 @@ MainFrameBeautyB.Visible = false
  local Section = Tab:CreateSection("SCP 3008")
 
  local Button = Tab:CreateButton({
+	Name = "GodMode",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/CHnamedata/WhatDaHeck/main/3008GodMode.lua'))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
 	Name = "Script 1",
 	Callback = function()
 		loadstring(game:HttpGet('https://scripts.luawl.com/Main/Scourge.lua'))()
@@ -18191,3 +18198,5 @@ end)
  })
 
  local Section = Tab:CreateSection("The End")
+
+ Rayfield:LoadConfiguration()
