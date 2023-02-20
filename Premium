@@ -1951,6 +1951,34 @@ local Button = Tab:CreateButton({
  local Tab = Window:CreateTab("Scripts", 4483362458) -- Title, Image
 
  local Button = Tab:CreateButton({
+	Name = "Menu Editor",
+	Callback = function()
+		loadstring(game:HttpGet("https://eternityhub.xyz/HostStuff/JayzRoblox.lua"))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "Fatality",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/tailgater/Fatality/main/Main"))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "Silent Aim",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/ROBLOX-Weapons-Kit-Silent-Aim/main/Main.lua"))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
+	Name = "Universal Tool",
+	Callback = function()
+		loadstring(game:HttpGet("https://ipig.cf/scripts/universial-tool.lua"))()
+	end,
+ })
+
+ local Button = Tab:CreateButton({
 	Name = "Animation Changer",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/LunarWareOP/Animation-Changer-Source/main/Script", true))()
@@ -1958,7 +1986,7 @@ local Button = Tab:CreateButton({
  })
 
  local Button = Tab:CreateButton({
-	Name = "????????????",
+	Name = "Vadrifts Bypasser",
 	Callback = function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/scripts/main/vadriftsbyp'),true))()
 	end,
@@ -18198,5 +18226,3 @@ end)
  })
 
  local Section = Tab:CreateSection("The End")
-
- Rayfield:LoadConfiguration()
