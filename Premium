@@ -18214,7 +18214,7 @@ end)
 
  local Section = Tab:CreateSection("Info")
 
- local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "Creator - Enxinity/Essinity."})
+ local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "Creator - Enxinity/Essinity,  Discord - ExnicordBD#5834"})
 
  local Section = Tab:CreateSection("Destroy Gui")
 
