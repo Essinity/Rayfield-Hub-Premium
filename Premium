@@ -714,6 +714,15 @@ MainFrameBeautyB.Visible = false
 
  local Tab = Window:CreateTab("Games", 4483362458) -- Title, Image
 
+ local Section = Tab:CreateSection("The Survival Game")
+
+ local Button = Tab:CreateButton({
+	Name = "Button Example",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/qxkya/Kya-Ware/main/TheSurvivalGame.lua"))() 
+	end,
+ })
+
  local Section = Tab:CreateSection("Build A Boat For Treasure")
 
  local Button = Tab:CreateButton({
@@ -1962,7 +1971,7 @@ local Button = Tab:CreateButton({
  local Tab = Window:CreateTab("Scripts", 4483362458) -- Title, Image
 
  local Button = Tab:CreateButton({
-	Name = "Button Example",
+	Name = "Invisible Tool",
 	Callback = function()
 		local offset = 1100
 		local invisible = game.Players.LocalPlayer
