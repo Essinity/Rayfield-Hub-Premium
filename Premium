@@ -717,7 +717,7 @@ MainFrameBeautyB.Visible = false
  local Section = Tab:CreateSection("The Survival Game")
 
  local Button = Tab:CreateButton({
-	Name = "Button Example",
+	Name = "Kya Hub",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/qxkya/Kya-Ware/main/TheSurvivalGame.lua"))() 
 	end,
