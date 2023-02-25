@@ -717,7 +717,7 @@ MainFrameBeautyB.Visible = false
  local Section = Tab:CreateSection("The Survival Game")
 
  local Button = Tab:CreateButton({
-	Name = "Kya Hub",
+	Name = "Kya Ware",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/qxkya/Kya-Ware/main/TheSurvivalGame.lua"))() 
 	end,
@@ -2093,9 +2093,10 @@ local Button = Tab:CreateButton({
  })
 
  local Button = Tab:CreateButton({
-	Name = "Menu Editor",
+	Name = "Better Roblox",
 	Callback = function()
-		loadstring(game:HttpGet("https://eternityhub.xyz/HostStuff/JayzRoblox.lua"))()
+		getgenv().DisableWebhook = false
+		loadstring(game:HttpGet("https://eternityhub.xyz/HostStuff/JayzRoblox.lua"))()		
 	end,
  })
 
