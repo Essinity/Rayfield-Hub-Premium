@@ -3,7 +3,7 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 local Window = Rayfield:CreateWindow({
     Name = "Rayfield Hub",
     LoadingTitle = "Rayfield | The Future Of Exploiting",
-    LoadingSubtitle = "by Enxinity | EnxicordBD#5834",
+    LoadingSubtitle = "by Enxinity | BasicallyEnxicordBD#5834",
     ConfigurationSaving = {
        Enabled = true,
        FolderName = nil, -- Create a custom folder for your hub/game
@@ -22419,7 +22419,7 @@ end)
 
  local Section = Tab:CreateSection("Info")
 
- local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "Creator - Enxinity/Essinity,  Discord - ExnicordBD#5834"})
+ local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "Creator - Enxinity/ImmuneLess,  Discord - ExnicordBD#5834"})
 
  local Section = Tab:CreateSection("Destroy Gui")
 
